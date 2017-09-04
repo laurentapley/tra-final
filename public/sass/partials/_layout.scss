@@ -1,24 +1,26 @@
 body {
-  /* The image used */
-  // background-image: url('../images/rust.svg');
-
-  /* Full height */
-  height: 100%;
-
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: $danger-orange;
 }
 
+@font-face {
+  src: url("/fonts/hamurz_free_version-webfont.otf") format("otf");
+  src: url("/fonts/hamurz_free_version-webfont.ttf") format("ttf");
+  font-weight: normal;
+  font-style: normal;
+}
 .nav__item {
   list-style-type: none;
   display: inline;
   float: right;
   padding: 10px 20px 10px 20px;
   margin: 5px;
+  margin-bottom: 10px;
 }
 
 .top {
-  // background-image: url('../images/retailapocalypse-final-WHITE.svg');
+  background-image: image('../images/retail_white.svg');
+}
+
+.inner h2 {
+  margin-bottom: 10px;
 }
