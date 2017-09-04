@@ -59,14 +59,14 @@
   }
 }
 
-&__details {
-  padding: 2rem;
-  p {
-    color: $black;
-    line-height: 1.2;
-    margin-bottom: 0;
-  }
-}
+// &__details {
+//   padding: 2rem;
+//   p {
+//     color: $black;
+//     line-height: 1.2;
+//     margin-bottom: 0;
+//   }
+// }
 @include atSmall {
   width: 48%;
 }
@@ -89,7 +89,7 @@
 }
 
 .store__action {
-  font-size: 10px;
+  font-size: 10rem;
   svg {
     width: 25px;
     fill: $white;

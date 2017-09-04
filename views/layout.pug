@@ -6,11 +6,15 @@ html
     meta(name="viewport" content="width=device-width, initial-scale=1")
   body
     block header
-      header.top
-      each item in h.menu
-       li.nav__item
-        a.nav__link(href=item.slug)
-        span #{item.title}
+      nav.nav
+        .nav__section.nav__section--pages
+          li.nav__item
+            a.nav__link.nav__link--logo(hre="/")
+              | The Retail Apocalypse
+          each item in h.menu
+            li.nav__item
+              a.nav__link(href=item.slug)
+                span #{item.title}
 
     block messages
       if locals.flashes
